@@ -133,8 +133,18 @@ Key features include:
 ### Sales Overview
 ![Sales Overview](screenshots/Sales-Overview.jpeg)
 
+This dashboard page provides a high-level overview of Blinkit’s grocery sales performance.  
+It highlights key performance indicators such as **Total Sales, Average Sales, Number of Items, and Average Rating**.  
+The visualizations show how sales are distributed across **outlet types, outlet locations, and product categories**, helping identify which outlets and products contribute the most to overall revenue.
+
+---
+
 ### Business Insights
 ![Business Insights](screenshots/Business-Insights.jpeg)
+
+This section of the dashboard focuses on deeper business insights derived from the data.  
+It analyzes patterns in **fat content preferences, item categories, and outlet performance** to understand customer buying behavior.  
+These insights help identify high-performing product segments and provide guidance for **inventory planning and product strategy**.
 
 ---
 
