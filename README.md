@@ -128,15 +128,13 @@ Key features include:
 
 ---
 
-# Dashboard Screenshots
+## Dashboard Screenshots
 
 ### Sales Overview
-
-![Sales Overview](screenshots/Sales Overview.jpeg)
+![Sales Overview](screenshots/Sales-Overview.jpeg)
 
 ### Business Insights
-
-![Business Insights](screenshots/Business Insights.jpeg)
+![Business Insights](screenshots/Business-Insights.jpeg)
 
 ---
 
