@@ -78,7 +78,11 @@ The dashboard tracks the following metrics:
 * **Number of Items** – Total number of items sold
 * **Average Rating** – Average customer rating of products
 
-A **dynamic metric selector (Field Parameter)** was used to allow switching between these KPIs within the same visualization.
+A **DAX Measures & Metric Parameter**
+To enable dynamic KPI switching, a Field Parameter (Metric Selector) was created in Power BI.
+This allows users to switch between multiple performance metrics within the same visualization.
+
+The following DAX measures were created and included inside the Metric parameter..
 
 ---
 
