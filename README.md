@@ -2,7 +2,7 @@
 
 ## Dashboard Preview
 
-![Sales Overview](screenshots/Sales Overview.jpeg)
+![Sales Overview](screenshots/Sales-Overview.jpeg)
 
 ---
 
