@@ -2,7 +2,7 @@
 
 ## Dashboard Preview
 
-![Sales Overview](screenshots/Sales-Overview.jpeg)
+![Dashboard Preview](screenshots/Sales-Overview.jpeg)
 
 ---
 
@@ -12,7 +12,7 @@ This project analyzes Blinkit grocery sales data to uncover insights about outle
 
 An interactive dashboard was developed using Power BI to visualize sales distribution, outlet performance across locations, and product category trends.
 
-The goal of this project is to demonstrate **data analysis, DAX calculations, and interactive dashboard development skills** using Power BI.
+The goal of this project is to demonstrate **data analysis, dashboard design, and DAX-based KPI calculation skills** using Power BI.
 
 ---
 
@@ -60,7 +60,7 @@ dataset/BlinkIT Grocery Data.xlsx
 
 Before creating the dashboard, the dataset was prepared and structured in Power BI.
 
-Data preparation steps included:
+Steps included:
 
 * Verifying data types
 * Checking for missing values
@@ -71,22 +71,22 @@ Data preparation steps included:
 
 # Key Performance Indicators (KPIs)
 
-The dashboard tracks the following metrics:
+The dashboard tracks the following key metrics:
 
 * **Total Sales** – Total revenue generated from all items sold
-* **Average Sales** – Average sales value per transaction
-* **Number of Items** – Total number of items sold
+* **Average Sales** – Average revenue generated per transaction
+* **Number of Items** – Total items sold across outlets
 * **Average Rating** – Average customer rating of products
 
-A **DAX Measures & Metric Parameter**
-To enable dynamic KPI switching, a Field Parameter (Metric Selector) was created in Power BI.
-This allows users to switch between multiple performance metrics within the same visualization.
+To improve interactivity, a **Metric Selector using Field Parameters** was implemented in Power BI.
 
-The following DAX measures were created and included inside the Metric parameter..
+This allows users to dynamically switch between these KPIs within the same visualization.
 
 ---
 
 # DAX Measures Used
+
+The following DAX measures were created and included inside the **Metric Parameter**.
 
 ### Total Sales
 
@@ -112,18 +112,18 @@ No of Items = COUNT('BlinkIT Grocery Data'[Item Identifier])
 Avg Rating = AVERAGE('BlinkIT Grocery Data'[Rating])
 ```
 
-These measures power the KPI cards and support performance analysis across outlets, product types, and locations.
+These measures power the KPI cards and are dynamically controlled using the **Metric field parameter**.
 
 ---
 
 # Dashboard Features
 
-The dashboard provides interactive visualizations to explore grocery sales performance.
+The Power BI dashboard includes several interactive visualizations to analyze grocery sales performance.
 
 Key features include:
 
 * KPI cards displaying **Total Sales, Average Sales, Number of Items, and Average Rating**
-* Dynamic **metric selector** for switching between KPIs
+* Dynamic **Metric Selector (Field Parameter)** for switching KPIs
 * Sales analysis by **Outlet Type**
 * Sales distribution by **Outlet Location**
 * Product category analysis by **Item Type**
@@ -132,23 +132,22 @@ Key features include:
 
 ---
 
-## Dashboard Screenshots
+# Dashboard Screenshots
 
 ### Sales Overview
+
 ![Sales Overview](screenshots/Sales-Overview.jpeg)
 
-This dashboard page provides a high-level overview of Blinkit’s grocery sales performance.  
-It highlights key performance indicators such as **Total Sales, Average Sales, Number of Items, and Average Rating**.  
-The visualizations show how sales are distributed across **outlet types, outlet locations, and product categories**, helping identify which outlets and products contribute the most to overall revenue.
+This page provides a high-level overview of Blinkit’s grocery sales performance.
+It highlights KPI metrics and shows how sales are distributed across outlet types and locations.
 
 ---
 
 ### Business Insights
+
 ![Business Insights](screenshots/Business-Insights.jpeg)
 
-This section of the dashboard focuses on deeper business insights derived from the data.  
-It analyzes patterns in **fat content preferences, item categories, and outlet performance** to understand customer buying behavior.  
-These insights help identify high-performing product segments and provide guidance for **inventory planning and product strategy**.
+This section focuses on deeper analytical insights including fat content comparison, item category performance, and outlet performance patterns.
 
 ---
 
@@ -174,8 +173,8 @@ blinkit-sales_and_outlet_performance_analysis_powerbi-dashboard
 │   └── Blinkit Sales & Outlet Performance Analysis.pbix
 │
 ├── screenshots
-│   ├── Business Insights.jpeg
-│   └── Sales Overview.jpeg
+│   ├── Business-Insights.jpeg
+│   └── Sales-Overview.jpeg
 │
 ├── images
 │
@@ -190,6 +189,7 @@ Through this project, the following skills were developed:
 
 * Data visualization using Power BI
 * Creating analytical measures using DAX
+* Implementing Field Parameters for dynamic metrics
 * Designing interactive dashboards
 * Extracting business insights from retail data
 
@@ -197,14 +197,14 @@ Through this project, the following skills were developed:
 
 # Future Improvements
 
-Possible enhancements for this project include:
+Possible enhancements include:
 
 * Adding time-based sales trend analysis
 * Implementing sales forecasting models
-* Integrating additional retail datasets for deeper insights
+* Integrating additional datasets for deeper insights
 
 ---
 
 # Author
 
-Bharti
+Akhil Bharti
